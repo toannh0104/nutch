@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nutch.iml" filepath="$PROJECT_DIR$/nutch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ttxvn/ttxvn.iml" filepath="$PROJECT_DIR$/../ttxvn/ttxvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ttxvn-ws/ttxvn-ws.iml" filepath="$PROJECT_DIR$/../ttxvn-ws/ttxvn-ws.iml" />
+    </modules>
+  </component>
+</project>

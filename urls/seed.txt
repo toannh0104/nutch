@@ -1,0 +1,1 @@
+http://chinhphu.vn/portal/page/portal/chinhphu/trangchu	nutch.fetchInterval.fixed=60

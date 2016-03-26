@@ -1,0 +1,82 @@
+<html>
+<body>
+<table border="1">
+<tr>
+<td>name</td><td>value</td><td>description</td>
+</tr>
+<tr>
+<td><a name="extractor.file">extractor.file</a></td><td>extractors.xml</td><td></td>
+</tr>
+<tr>
+<td><a name="http.agent.name">http.agent.name</a></td><td>Googlebot</td><td></td>
+</tr>
+<tr>
+<td><a name="http.robots.agents">http.robots.agents</a></td><td>Googlebot</td><td></td>
+</tr>
+<tr>
+<td><a name="parser.skip.truncated">parser.skip.truncated</a></td><td>false</td><td></td>
+</tr>
+<tr>
+<td><a name="db.url.normalizers">db.url.normalizers</a></td><td>false</td><td>Normalize urls when updating crawldb</td>
+</tr>
+<tr>
+<td><a name="db.url.filters">db.url.filters</a></td><td>true</td><td>Filter urls when updating crawldb</td>
+</tr>
+<tr>
+<td><a name="http.content.limit">http.content.limit</a></td><td>-1</td><td>The length limit for downloaded content using the http://
+  			protocol, in bytes. If this value is nonnegative (&gt;=0), content longer
+  			than it will be truncated; otherwise, no truncation at all. Do not
+  			confuse this setting with the file.content.limit setting.
+  		</td>
+</tr>
+<tr>
+<td><a name="db.update.additions.allowed">db.update.additions.allowed</a></td><td>true</td><td>If true, updatedb will add newly discovered URLs, if false
+  		only already existing URLs in the CrawlDb will be updated and no new
+  		URLs will be added.
+  		</td>
+</tr>
+<tr>
+<td><a name="db.fetch.interval.default">db.fetch.interval.default</a></td><td>31536000</td><td>The default number of seconds between re-fetches of a page (30 days).
+  		</td>
+</tr>
+<tr>
+<td><a name="db.fetch.schedule.class">db.fetch.schedule.class</a></td><td>org.apache.nutch.crawl.AdaptiveFetchSchedule</td><td>The implementation of fetch schedule. DefaultFetchSchedule simply
+  		adds the original fetchInterval to the last fetch time, regardless of
+  		page changes.</td>
+</tr>
+<tr>
+<td><a name="plugin.folders">plugin.folders</a></td><td>/ttxvn-resources/nutch/build/plugins</td><td></td>
+</tr>
+<tr>
+<td><a name="plugin.includes">plugin.includes</a></td><td>protocol-httpclient|urlfilter-regex|parse-(html|tika)|extractor|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)|myPlugin</td><td></td>
+</tr>
+<tr>
+<td><a name="db.injector.update">db.injector.update</a></td><td>true</td><td>If true existing records in the CrawlDB will be updated with
+  		injected records. Old meta data is preserved. The db.injector.overwrite
+  		parameter has precedence.
+  		</td>
+</tr>
+<tr>
+<td><a name="db.injector.overwrite">db.injector.overwrite</a></td><td>true</td><td>Whether existing records in the CrawlDB will be overwritten
+  		by injected records.
+  		</td>
+</tr>
+<tr>
+<td><a name="fetcher.threads.per.queue">fetcher.threads.per.queue</a></td><td>50</td><td></td>
+</tr>
+<tr>
+<td><a name="fetcher.threads.fetch">fetcher.threads.fetch</a></td><td>50</td><td></td>
+</tr>
+<tr>
+<td><a name="http.timeout">http.timeout</a></td><td>30000</td><td>The default network timeout, in milliseconds.</td>
+</tr>
+<tr>
+<td><a name="http.max.delays">http.max.delays</a></td><td>60000</td><td></td>
+</tr>
+<tr>
+<td><a name="db.fetch.retry.max">db.fetch.retry.max</a></td><td>30</td><td>The maximum number of times a url that has encountered
+  			recoverable errors is generated for fetch.</td>
+</tr>
+</table>
+</body>
+</html>
